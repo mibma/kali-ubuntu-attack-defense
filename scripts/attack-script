@@ -1,0 +1,12 @@
+To find ip of both use "ip a" command
+on kali: use the ip [Kali_ip]
+
+On ubuntu use the same command to find ubuntu ip [Ubuntu_ip]
+On Kali teminal run the 
+"nmap -A [Ubuntu_ip]" command
+if this doesnt work use -Pn
+This will
+nmap: The command to run Nmap.
+-A: Enables OS detection, version detection, script scanning, and traceroute.
+[Ubuntu_ip]: The IP address of the target machine you want to scan
+use -Pn if not working
