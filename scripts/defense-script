@@ -1,0 +1,16 @@
+for defense: 
+in ubuntu run these commands
+sudo apt install ufw
+sudo ufw enable
+sudo ufw allow ssh
+sudo ufw allow from KALI_IP
+sudo ufw status
+sudo apt install wireshark
+sudo wireshark
+
+
+ufw: Calls the UFW command.
+allow: Instructs UFW to allow the specified traffic.
+ssh: The name of the service you want to allow (SSH, which typically operates on port 22). 
+This ensures that SSH connections are permitted through the firewall, allowing you to remotely access your machine via SSHsudos
+Use wireshark to trace and scan:
